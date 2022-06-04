@@ -14,14 +14,16 @@ crypto=int(input())
 print('Enter savings amount')
 savings=int(input())
 
-
-print('Enter Parking per day')
-parking=int(input())
-print('How many days a week do you pay for parking?')
-parkingdays=int(input())
-
-parkingtotal=parking * parkingdays
-
+print('do you pay for parking? (y/n)')
+response=input()
+if response == 'y':
+    print('Enter Parking per day')
+    parking=int(input())
+    print('How many days a week do you pay for parking?')
+    parkingdays=int(input())
+    parkingtotal=parking * parkingdays
+else:
+    parkingtotal = 0
 
 
 #perday $
