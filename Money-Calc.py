@@ -1,3 +1,5 @@
+##Notes: add "optional feilds" that can be for whatever, do it like 'if you have opt feild, click y, then enter into and add to perday as 'opt1'
+
 # Money Calc
 import math
 
