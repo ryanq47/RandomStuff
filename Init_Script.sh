@@ -23,17 +23,17 @@ chkrootkit
 
 ## -- Github tools -- ##
 
-git clone www.github.com/ryanq47/TOOL1
-git clone www.github.com/ryanq47/TOOL2
+git clone github.com/ryanq47/WEBFLINGER
+git clone www.github.com/ryanq47/SLAP
 
-git clone www.github.com/ryanq47/STARTUP HARDEN script
+#git clone www.github.com/ryanq47/STARTUP HARDEN script
 
 
 
 ## Unpacknig tools##
 
-unzip TOOL1.zip -d /opt/tools
-unzip TOOL1.zip -d /opt/tools
+unzip WEBFLINGER.zip -d /opt/tools
+unzip SLAP.zip -d /opt/tools
 
 
 ## unzip tools and put in /opt, add to system path
