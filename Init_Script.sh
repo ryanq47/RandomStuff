@@ -44,8 +44,10 @@ export PATH-$PATH:/opt/tools/ >> ~./bashrc
 mkdir ~/Desktop/Knowledge
 
 git clone www.github.com/RoseSecurity/Anti-Virus-Evading-Payloads
-unzip Anti-Virus-Evading-Payloads.zip -d ~/Desktop/Knowledge
+unzip Anti-Virus-Evading-Payloads.zip -d ~/Desktop/Knowledge/
 
+git clone https://github.com/strandjs/IntroLabs
+unzip IntroLabs -d ~/Desktop/Knowledge/
 
 ## Cron the startup hardening script
 
