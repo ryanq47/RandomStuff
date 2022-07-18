@@ -40,6 +40,13 @@ unzip TOOL1.zip -d /opt/tools
 export PATH-$PATH:/opt/tools/ >> ~./bashrc
 
 
+## Making info directory
+mkdir ~/Desktop/Knowledge
+
+git clone www.github.com/RoseSecurity/Anti-Virus-Evading-Payloads
+unzip Anti-Virus-Evading-Payloads.zip -d ~/Desktop/Knowledge
+
+
 ## Cron the startup hardening script
 
 
