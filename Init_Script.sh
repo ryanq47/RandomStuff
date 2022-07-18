@@ -49,7 +49,10 @@ unzip Anti-Virus-Evading-Payloads.zip -d ~/Desktop/Knowledge/
 git clone https://github.com/strandjs/IntroLabs
 unzip IntroLabs -d ~/Desktop/Knowledge/
 
-## Cron the startup hardening script
 
+## Setting Background
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorVirtual1/workspace0/last-image -s "IMAGE PATH"
+
+## Cron the startup hardening script
 
 echo "Done"
